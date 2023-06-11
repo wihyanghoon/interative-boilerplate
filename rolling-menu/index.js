@@ -21,10 +21,11 @@ const rollingHeight = () => {
   if (count === 4) {
     cloneMenu();
     count = 0;
-    console.log(count);
+    
 
     setTimeout(() => {
-      removeMenu();
+        const oldNode = document.querySelectorAll(".clone")
+      removeMenu(oldNode);
       current = 0;
       slides.style.transform = `translateY(${0}px)`;
       slides.classList.remove("animate");
@@ -33,16 +34,16 @@ const rollingHeight = () => {
 };
 
 const cloneMenu = () => {
-  for (let i = 0; i < slide.length; i++) {
+  for (let i = 0; i < 4; i++) {
     let cloneSlide = slide[i].cloneNode(true);
     cloneSlide.classList.add("clone");
     slides.appendChild(cloneSlide);
   }
 };
 
-const removeMenu = () => {
-  for (let i = 0; i < slide.length; i++) {
-    slide[i].remove();
+const removeMenu = (dom) => {
+  for (let i = 0; i < dom.length; i++) {
+    dom[i].remove();
   }
 };
 
