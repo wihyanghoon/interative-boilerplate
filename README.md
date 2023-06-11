@@ -2,7 +2,7 @@
 ```
 interactive
 ├─ REAME.md 
-└─ loop-slide
+└─ loop-slide || 무한슬라이드 기본로직
    ├─ index.css
    ├─ index.html
    └─ index.js
