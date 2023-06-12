@@ -22,7 +22,6 @@ const rollingHeight = () => {
     cloneMenu();
     count = 0;
     
-
     setTimeout(() => {
         const oldNode = document.querySelectorAll(".clone")
       removeMenu(oldNode);
