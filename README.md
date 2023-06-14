@@ -1,7 +1,7 @@
 인터렉티브 자바스크립트 보일러플레이트 모음집
 
 ```
-interactive
+interative-boilerplate
 ├─ .DS_Store
 ├─ README.md
 ├─ loop-slide
@@ -9,6 +9,10 @@ interactive
 │  ├─ index.html
 │  └─ index.js
 ├─ rolling-menu
+│  ├─ index.css
+│  ├─ index.html
+│  └─ index.js
+├─ slider
 │  ├─ index.css
 │  ├─ index.html
 │  └─ index.js
