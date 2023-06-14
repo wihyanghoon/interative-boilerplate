@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.slide_wraper {
+    width: 100%;
+    aspect-ratio: 16/ 9;
+    overflow: hidden;
+}
+
+.slide_wraper ul {
+    width: 500%;
+    height: 100%;
+    display: flex;
+    transition: transform .7s ease-in-out;
+}
+
+.slide_wraper li {
+    width: 100%;
+}
+
+.slide_wraper li:nth-child(1) {
+    background-color: red;
+}
+
+.slide_wraper li:nth-child(2) {
+    background-color: blue;
+}
+
+.slide_wraper li:nth-child(3) {
+    background-color: dodgerblue;
+}
+
+.slide_wraper li:nth-child41 {
+    background-color: orange;
+}
